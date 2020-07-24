@@ -46,10 +46,10 @@ M <- convert2df(file = file, dbsource = "wos", format = "plaintext")
 results <- biblioAnalysis(M, sep = ";")
 ```
 
-```{r message=FALSE, warning=FALSE}
+```{r Analisis grafico, fig.align="center", fig.height=2.5, fig.width=8, message=FALSE, warning=FALSE}
 plot(x = results, k = 10, pause = FALSE)
 ```
-n la Figura 2, analizamos la áreas donde mas se realizan contribuciones y encontramos que estos temas son implementados e investigados en áreas como Matemáticas, ingenieras y economía.
+
 
 # Marco Teórico (Descripción General)
 
