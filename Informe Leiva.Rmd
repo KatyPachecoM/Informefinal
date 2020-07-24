@@ -30,10 +30,26 @@ En resumen, el articulo @saulo_birnbaumsaunders_2019 se enfoca en el modelo Birn
 Por lo tanto, el objetivo principal del artículo @saulo_birnbaumsaunders_2019 es comparar los modelos BSACD1 y BSACD2. Además, obtener los estimadores de máxima verosimilitud (ML) de los parámetros del modelo BSACD1 y BSACD2 y evaluar su rendimiento utilizando un estudio de simulación Monte Carlo (MC), derivar herramientas de diagnóstico para los modelos BSACD1 y BSACD2 y evaluar la solidez de cada modelo en casos atípicos, ajustar los modelos BSACD1 y BSACD2 a un conjunto de datos del mundo real para evaluar, establecer la capacidad de pronóstico de los modelos BSACD1 y BSACD2 para la evaluación (C2) y comparar los rendimientos de ajuste y pronóstico de los modelos BSACD1 y BSACD2 con los modelos existentes en la literatura.
 
 # Análisis de la literatura Relacionada
+En esta sección se identifican los artículos relacionados con   Birnbaum–Saunders autoregressive conditional duration models applied to high-frequency financial data , durante el periodo 2010-2020, para ello se realizó un análisis de la literatura comprendido en los últimos 10 años, utilizando como palabra clave:  Birnbaum–Saunders , y autoregressive conditional.Está  búsqueda se realizó en las bases de datos  Web of Science donde encontramos 294  artículos relaciondas en el periodo de tiempo analizado
 
+\noindent
+Se observa en las figuras que la producción científica por año ha venido aumentando de manera exponencial, además notamos que los años con mayor contribución son 2018 y 2019, en el año 2020 vemos que ha disminuido la producción científica, y que en los años de 2010-2014 fue casi que constante la producción científica.
 
+En las Figuras, analizamos la áreas donde mas se realizan contribuciones y encontramos que estos temas son implementados e investigados en áreas como Matemáticas, ingenieras y economía. 
 
+Por último analizamos los países con mayor contribución en estas área de investigación y encontramos que Brazil, chile, china,Iran, etc, son los países mas contribuyentes a estas áreas, destacando también que con respecto a los autores el **Phd Victor Leiva¨** es el mayor contribuyente en los últimos años en los temas de la distribución Birnbaum–Saunders
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(bibliometrix)   
+file <- "savedrecs.txt"
+M <- convert2df(file = file, dbsource = "wos", format = "plaintext")
 
+results <- biblioAnalysis(M, sep = ";")
+```
+
+```{r message=FALSE, warning=FALSE}
+plot(x = results, k = 10, pause = FALSE)
+```
+n la Figura 2, analizamos la áreas donde mas se realizan contribuciones y encontramos que estos temas son implementados e investigados en áreas como Matemáticas, ingenieras y economía.
 
 # Marco Teórico (Descripción General)
 
