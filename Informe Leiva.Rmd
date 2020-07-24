@@ -133,7 +133,9 @@ La clave de este método está en entender el término *simulación*. Realizar u
 
 
 ## Contribución del Trabajo
-
+En el artículo [@saulo_birnbaumsaunders_2019] propusieron dos modelos de duración condicional autorregresiva de Birnbaum-Saunders, El primero es un nuevo modelo basado en la media (BSACD1) y el segundo es un modelo basado en la mediana (BSACD2).  Al realizar un estudio de diagnóstico influenciado determinaron que el modelo basado en la mediana es más robusto para casos atípicos que el modelo basado en la media, por lo que es una opción más confiable usar ese modelo para hacer predicciones en condiciones de mercado altamente impredecibles. 
+En general, los resultados que se obtuvieron en la investigación presentados en el artículo [@saulo_birnbaumsaunders_2019] han demostrado que los dos modelos de duración condicional autorregresiva de Birnbaum-Saunders tienen rendimientos similares en términos de ajuste del modelo y capacidad de pronóstico. 
+Por lo tanto, en [@saulo_birnbaumsaunders_2019] hicieron una gran contribución con dos modelos predictivos de eventos comerciales que superan en todos los casos a los modelos existentes en la literatura para hacer predicciones en estos casos.
 ## Comentario Adicional
 
 # References
