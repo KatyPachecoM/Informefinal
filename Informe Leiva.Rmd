@@ -1,0 +1,39 @@
+---
+title: "Informe IX: Birnbaum–Saunders autoregressive conditional duration models applied to high-frequency financial data"
+author: "Katy Pacheco Manchego"
+date: "24 julio 2020"
+output:
+  pdf_document: 
+  fig_caption: yes
+  keep_tex: yes
+  citation_package: biblatex
+lang: en-GB
+description: References for research project on NGOs and Social Investment
+header-includes: \usepackage{pgf,tikz}
+subtitle: Econometric Modeling and Solving Social Problems
+csl: journal-of-public-economics.csl
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introducción
+
+
+# Análisis de la literatura Relacionada
+
+
+
+
+
+# Marco Teórico (Descripción General)
+
+## Contribución del Trabajo
+
+## Comentario Adicional
+
+# References
+
+
