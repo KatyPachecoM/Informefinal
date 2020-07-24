@@ -52,6 +52,44 @@ plot(x = results, k = 10, pause = FALSE)
 
 
 # Marco Teórico (Descripción General)
+En esta sección se hace una revisión de algunos conceptos teóricos relacionados con el articulo [1] y una breve mención de otros aspectos relevantes de ésta.
+
+## Big data
+
+Según @wu_data_nodate Big Data se refiere a conjuntos de datos crecientes y complejos de gran volumen con múltiples fuentes autónomas. Con el rápido desarrollo de las redes, el almacenamiento de datos y la capacidad de recopilación de datos, Big Data ahora se está expandiendo rápidamente en todos los dominios de la ciencia y la ingeniería, incluidas las ciencias físicas, biológicas y biomédicas.
+
+Aunque el tamaño utilizado para determinar si un conjunto de datos determinado se considera Big Data no está firmemente definido y sigue cambiando con el tiempo, la mayoría de los analistas y profesionales actualmente se refieren a conjuntos de datos que van desde 30-50 Terabytes a varios Petabytes.
+
+La naturaleza compleja del Big Data se debe principalmente a la naturaleza no estructurada de gran parte de los datos generados por las tecnologías modernas, como los  web logs, la identificación por radiofrecuencia (RFID), los sensores incorporados en dispositivos, la maquinaria, los vehículos, las búsquedas en Internet, las redes sociales como Facebook, computadoras portátiles, teléfonos inteligentes y otros teléfonos móviles, dispositivos GPS y registros de centros de llamadas.
+
+En la mayoría de los casos, con el fin de utilizar eficazmente el Big Data, debe combinarse con datos estructurados (normalmente de una base de datos relacional) de una aplicación comercial más convencional, como un ERP (Enterprise Resource Planning) o un CRM (Customer Relationship Management).
+
+## Distribución de Birnbaum-Saunders
+
+Según @bhatti_birnbaumsaunders_2010 una variable aleatoria $X$ se distribuye BS si se puede representar mediante la transformación de una variable aleatoria con distribución normal estándar, $Z\sim N(0,1)$ , dado por 
+
+\begin{equation}
+X = \sigma \left[ kZ/2+\left\lbrace (kZ/2)^2+1\right\rbrace^{1/2}\right]^2 ,
+\end{equation}
+
+dónde $k < 0$ y $\sigma > 0$ son parámetros de forma y escala respectivamente. En este caso, se utiliza la notación $X\sim BS( k, \sigma)$ y la función de densidad correspondiente se obtiene como
+
+\begin{equation}
+f(x;k;\sigma)=\dfrac{1}{\sqrt{2\pi}}exp\left( -\dfrac{1}{2k^2}\left[\frac{x}{\sigma}+\frac{\sigma}{x}-2\right] \right)\dfrac{x^{-3/2}[x+\sigma]}{2k\sigma^{1/2}},~~~x>0.
+\end{equation}
+
+Entonces, se puede demostrar que $E [X] = \sigma [1 + k^2/ 2]$, $Var [ X ] = [ k\sigma ]^2 [1 + 5 k^2 / 4]$ y La mediana de la distribución es el parámetro de escala $\sigma$. Tenga en cuenta que la distribución BS está cerrado bajo escala y transformaciones recíprocas, es decir, $b$ $X\sim BS(k,b\sigma)$ , con $b> 0$ y $1 / X \sim BS (k, 1 / \sigma)$ , respectivamente.
+
+
+
+
+
+## simulación del Monte Carlo
+
+La simulación de Montecarlo según [@noauthor_simulacion_nodate] es un método estadístico utilizado para resolver problemas matemáticos complejos a través de la generación de variables aleatorias. La simulación de Montecarlo o método de Montecarlo, le debe el nombre al famoso casino del principado de Mónaco. La ruleta es el juego de casino más famoso y también el ejemplo más sencillo de mecanismo que permite generar números aleatorios.
+
+La clave de este método está en entender el término *simulación*. Realizar una simulación consiste en repetir o duplicar las características y comportamientos de un sistema real. Así pues, el objetivo principal de la simulación de Montecarlo es intentar imitar el comportamiento de variables reales para, en la medida de lo posible, analizar o predecir cómo van a evolucionar. A través de la simulación se pueden resolver desde problemas muy sencillos, hasta problemas muy complejos. Algunos problemas pueden solucionarse con papel y bolígrafo. Sin embargo, la mayoría requieren el uso de programas informáticos como Excel, R Studio o Matlab. Sin estos programas, resolver determinados problemas llevaría muchísimo tiempo.
+
 
 ## Contribución del Trabajo
 
