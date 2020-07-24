@@ -21,6 +21,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introducción
 
+En la actualidad se tiene que los mercados financieros son muy variables a través que pasa el tiempo, para tener un control sobre los eventos y analizar la estructura de los tiempos entre eventos comerciales se registran el tiempo preciso de cada operación bursátil, junto con el precio y el volumen. Para hacer unas buenas predicciones de los eventos comerciales. En  @saulo_birnbaumsaunders_2019 Propusieron dos modelos de duración condicional autorregresiva de Birnbaum-Saunders especificados en términos de mediana condicional variable de tiempo y duraciones medias y compararon el rendimiento entre ellos. Es por ello que el doctor leiva, dada la flexibilidad y facilidad de estimación de los modelos propuestos por @saulo_birnbaumsaunders_2019, ellos proporcionan una alternativa novedosa a los modelos de duración condicional autorregresivos existentes para hacer predicciones de los eventos comerciales.
+En resumen, el articulo @saulo_birnbaumsaunders_2019 se enfoca en el modelo Birnbaum – Saunders ACD (BSACD) propuesto por @bhatti_birnbaumsaunders_2010, el cual se basa en la distribución BS conocida por que tiene propiedades interesantes y ser ampliamente estudiada. En ese contexto,  consideraron y propusieron dos modelos: 
+\begin{itemize}
+	\item El primero,  es un nuevo modelo basado en la media (BSACD1) especificado en términos de una TD media condicional variable en el tiempo, como es habitual en los modelos ACD, utilizando una versión reparameterizada de la distribución BS
+	\item El segundo es un modelo basado en la mediana (BSACD2) especificado en términos de una TD media condicional variable en el tiempo.
+\end{itemize} 
+Por lo tanto, el objetivo principal del artículo @saulo_birnbaumsaunders_2019 es comparar los modelos BSACD1 y BSACD2. Además, obtener los estimadores de máxima verosimilitud (ML) de los parámetros del modelo BSACD1 y BSACD2 y evaluar su rendimiento utilizando un estudio de simulación Monte Carlo (MC), derivar herramientas de diagnóstico para los modelos BSACD1 y BSACD2 y evaluar la solidez de cada modelo en casos atípicos, ajustar los modelos BSACD1 y BSACD2 a un conjunto de datos del mundo real para evaluar, establecer la capacidad de pronóstico de los modelos BSACD1 y BSACD2 para la evaluación (C2) y comparar los rendimientos de ajuste y pronóstico de los modelos BSACD1 y BSACD2 con los modelos existentes en la literatura.
 
 # Análisis de la literatura Relacionada
 
