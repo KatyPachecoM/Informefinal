@@ -137,6 +137,7 @@ En el artículo [@saulo_birnbaumsaunders_2019] propusieron dos modelos de duraci
 En general, los resultados que se obtuvieron en la investigación presentados en el artículo [@saulo_birnbaumsaunders_2019] han demostrado que los dos modelos de duración condicional autorregresiva de Birnbaum-Saunders tienen rendimientos similares en términos de ajuste del modelo y capacidad de pronóstico. 
 Por lo tanto, en [@saulo_birnbaumsaunders_2019] hicieron una gran contribución con dos modelos predictivos de eventos comerciales que superan en todos los casos a los modelos existentes en la literatura para hacer predicciones en estos casos.
 ## Comentario Adicional
+Se tiene que los eventos comerciales son muy variantes y a veces poco predecibles y esto muchas veces se da por que hay muchos factores que influyen a resultados diversos. Seria de mucha mas ayuda realizar estos dos modelos predictivos que se proponen en [@saulo_birnbaumsaunders_2019] de forma multivariada, es decir, donde hayan mas variables explicativas que ayuden a predecir con mas exactitud la variable respuesta.
 
 # References
 
