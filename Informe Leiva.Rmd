@@ -79,10 +79,51 @@ f(x;k;\sigma)=\dfrac{1}{\sqrt{2\pi}}exp\left( -\dfrac{1}{2k^2}\left[\frac{x}{\si
 \end{equation}
 
 Entonces, se puede demostrar que $E [X] = \sigma [1 + k^2/ 2]$, $Var [ X ] = [ k\sigma ]^2 [1 + 5 k^2 / 4]$ y La mediana de la distribución es el parámetro de escala $\sigma$. Tenga en cuenta que la distribución BS está cerrado bajo escala y transformaciones recíprocas, es decir, $b$ $X\sim BS(k,b\sigma)$ , con $b> 0$ y $1 / X \sim BS (k, 1 / \sigma)$ , respectivamente.
+\begin{center}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,310); %set diagram left start at 0, and has height of 310
+
+%Shape: Axis 2D [id:dp355101833563102] 
+\draw  (124,202.48) -- (426.61,202.48)(154.26,16) -- (154.26,223.2) (419.61,197.48) -- (426.61,202.48) -- (419.61,207.48) (149.26,23) -- (154.26,16) -- (159.26,23)  ;
+%Shape: Parabola [id:dp700500587978993] 
+\draw  [color={rgb, 255:red, 245; green, 166; blue, 35 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (321.61,200.2) .. controls (284.09,98.35) and (246.96,98.49) .. (210.22,200.63) ;
+%Shape: Parabola [id:dp27662201936680897] 
+\draw  [color={rgb, 255:red, 126; green, 211; blue, 33 }  ,draw opacity=1 ] (322.44,203.78) .. controls (286.81,76.39) and (248.52,75.58) .. (207.55,201.35) ;
+%Shape: Parabola [id:dp08329098697832227] 
+\draw  [color={rgb, 255:red, 208; green, 2; blue, 27 }  ,draw opacity=1 ] (323.94,196.3) .. controls (280.59,54.81) and (242.69,56.25) .. (210.22,200.63) ;
+%Shape: Parabola [id:dp07162324091551642] 
+\draw  [color={rgb, 255:red, 80; green, 227; blue, 194 }  ,draw opacity=1 ] (322.44,203.78) .. controls (283.42,36.14) and (244.1,36.07) .. (204.5,203.57) ;
+
+% Text Node
+\draw (182,206) node [anchor=north west][inner sep=0.75pt]   [align=left] {50};
+% Text Node
+\draw (235,208) node [anchor=north west][inner sep=0.75pt]   [align=left] {100};
+% Text Node
+\draw (293,208) node [anchor=north west][inner sep=0.75pt]   [align=left] {150};
+% Text Node
+\draw (338,207) node [anchor=north west][inner sep=0.75pt]   [align=left] {200};
+% Text Node
+\draw (124,141) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\scriptsize 0,01}};
+% Text Node
+\draw (122,172) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\scriptsize 0,005}};
+% Text Node
+\draw (123,110) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\scriptsize 0,015}};
+% Text Node
+\draw (130,83) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\scriptsize 0,2}};
+% Text Node
+\draw (126,51) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\scriptsize 0,25}};
+% Text Node
+\draw (245,156) node [anchor=north west][inner sep=0.75pt]   [align=left] {$ $};
+% Text Node
+\draw (232,170.4) node [anchor=north west][inner sep=0.75pt]    {$\mathit{\beta =0,1} 7$};
 
 
+\end{tikzpicture}
 
 
+\end{center}
 
 ## simulación del Monte Carlo
 
